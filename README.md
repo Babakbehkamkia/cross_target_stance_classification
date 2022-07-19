@@ -11,7 +11,9 @@
 
 ## getting started:
 
-as far as conda do not support python 3.6, I decided to use python 3.7
+First of all you need to download **glove.twitter.27B.200d** from kaggle (https://www.kaggle.com/datasets/larryfreeman/glove-twitter-27b-200d-txt)
+
+As far as conda do not support python 3.6, I decided to use python 3.7
 ### Requirements:
   * python 3.7
   * keras 2.1.3

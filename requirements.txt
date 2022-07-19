@@ -1,0 +1,7 @@
+pip3 install --upgrade "protobuf<=3.20.1"
+pip3 install nltk==3.7
+pip3 install pandas
+pip3 install gensim==2.3
+pip3 install numpy==1.16.1
+pip3 install sklearn
+pip3 install --upgrade "h5py==2.10.0"

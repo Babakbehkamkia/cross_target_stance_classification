@@ -13,7 +13,6 @@
 
 First of all you need to download **glove.twitter.27B.200d** from kaggle (https://www.kaggle.com/datasets/larryfreeman/glove-twitter-27b-200d-txt)
 
-As far as conda do not support python 3.6, I decided to use python 3.7
 ### Requirements:
   * python 3.7
   * keras 2.1.3
@@ -33,9 +32,11 @@ pip install -r requirements.txt
 ```
 
 
-
-
 ## Usage:
+
+First of all you should change a file. go to your_venv_name/lib/python3.7/site-packages/gensim/models/ldamodel.py and line 56:
+change **from scipy.misc import logsumexp** to **from scipy.special import logsumexp**
+
 On windows (Train and test):
 
 
